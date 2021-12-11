@@ -6,4 +6,8 @@
 
 ## Troubleshoot error
 
-Follow the error message shown
+`ERROR: Couldn't connect to Docker daemon at ....`
+- Run the command as `sudo`
+
+`ERROR: Volume declared as external but could not be found`
+- Run `docker volume create --name=name_of_the_volume`
